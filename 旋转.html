@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>title</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			@font-face{
+				font-family:'xingkai';
+				src:url('xingkai/STCAIYUN.TTF')
+			}
+			body{
+				font-family:xingkai;
+				font-size:14px;
+			}
+			*{
+				margin:0;
+				padding:0;
+				margin:0 auto;
+			}
+			#div{
+				width:500px;
+				height:500px;
+				background:black;
+				color:white;
+				text-align:center;
+				line-height:500px;
+				font-size:32px;
+				transition:transform 3s,text-shadow 3s,box-shadow 3s,font-size:3s;
+				transition:3s;
+			}
+			#div:hover{
+				transform:rotate(180deg) skew(20deg) scale(0.5);
+				font-size:5em;
+				text-shadow:5px 5px red;
+				box-shadow:20px 20px gray;
+			}
+		</style>
+	</head>
+	<body>
+		我预征战HTML5->势必攻克之
+		<div id="div">
+			<p>
+				HTML5公开课
+			</p>
+		</div>
+	</body>
+</html>
